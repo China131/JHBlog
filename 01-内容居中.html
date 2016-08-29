@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+
+        /*
+           1.如果标签内部的子标签
+           是行内标签或者行内-块级标签,水平居中可以用text-align: center;
+
+           2.如果标签内部的子标签
+           是块级标签,水平居中可以用margin:0px auto ;
+
+           3.垂直居中统一用  line-height
+
+        */
+       .first{
+           background-color: red;
+           width: 300px;
+           height: 500px;
+           line-height: 500px;
+           text-align: center;
+       }
+
+       span{
+           background-color: yellow;
+       }
+
+       .two{
+           background-color: green;
+           width: 50px;
+           /*margin-left: auto;*/
+           /*margin-right: auto;*/
+           margin:0px auto ;
+           text-align: center;
+       }
+    </style>
+</head>
+<body>
+
+ <div class="first">
+    <span>dwewdewd</span>
+     <!--<button>百度一下,你就不知道</button>-->
+     <!--<div class="two">你好</div>-->
+ </div>
+
+</body>
+</html>
